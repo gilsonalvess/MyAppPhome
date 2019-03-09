@@ -12,6 +12,9 @@
 		577305242233FC0D00A015F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577305222233FC0D00A015F0 /* Main.storyboard */; };
 		577305262233FC0D00A015F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577305252233FC0D00A015F0 /* Assets.xcassets */; };
 		577305292233FC0D00A015F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577305272233FC0D00A015F0 /* LaunchScreen.storyboard */; };
+		57730531223409B700A015F0 /* SegundaTelaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57730530223409B700A015F0 /* SegundaTelaViewController.swift */; };
+		577305332234269900A015F0 /* PrimeitaTelaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577305322234269900A015F0 /* PrimeitaTelaController.swift */; };
+		57730535223439DD00A015F0 /* MoboTorchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57730534223439DD00A015F0 /* MoboTorchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		577305252233FC0D00A015F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577305282233FC0D00A015F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5773052A2233FC0D00A015F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57730530223409B700A015F0 /* SegundaTelaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaTelaViewController.swift; sourceTree = "<group>"; };
+		577305322234269900A015F0 /* PrimeitaTelaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeitaTelaController.swift; sourceTree = "<group>"; };
+		57730534223439DD00A015F0 /* MoboTorchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoboTorchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				5773051E2233FC0D00A015F0 /* AppDelegate.swift */,
+				57730534223439DD00A015F0 /* MoboTorchController.swift */,
+				577305322234269900A015F0 /* PrimeitaTelaController.swift */,
 				577305202233FC0D00A015F0 /* ViewController.swift */,
+				57730530223409B700A015F0 /* SegundaTelaViewController.swift */,
 				577305222233FC0D00A015F0 /* Main.storyboard */,
 				577305252233FC0D00A015F0 /* Assets.xcassets */,
 				577305272233FC0D00A015F0 /* LaunchScreen.storyboard */,
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577305332234269900A015F0 /* PrimeitaTelaController.swift in Sources */,
 				577305212233FC0D00A015F0 /* ViewController.swift in Sources */,
+				57730535223439DD00A015F0 /* MoboTorchController.swift in Sources */,
+				57730531223409B700A015F0 /* SegundaTelaViewController.swift in Sources */,
 				5773051F2233FC0D00A015F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
